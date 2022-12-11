@@ -1,0 +1,168 @@
+.navbar{
+    background-color: #0A1828;
+    justify-content: space-evenly;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+.navbar1{
+    color: white;
+    text-decoration: none;
+    padding: 1% 5%;
+
+}
+.navbar1:hover{
+    background-color: #178582;
+}
+/* home styling */
+.back{
+    margin: 0 7%;
+}
+.top, .middle_content{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.top img{
+    margin-left: auto;
+    width: 40%;
+}
+
+.review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_container{
+    background-color: #178582;
+    width: 70%;
+    height: 800px;
+    position: relative;
+    margin: auto;
+    border-radius: 15px;
+    padding-top: 1%;
+    
+    }
+.form{
+    background-color: #BFA181;
+    width: 65%;
+    height: 85%;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 4%;   
+}
+.form h1{
+    font-size: 68px;
+    margin: 0;
+}
+.form h2{
+    font-size: 38px;
+}
+.form input{
+    width: 50%;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+    margin: 2% 0;
+    font-size: 22px;
+    text-align: center;
+}
+.form button{
+    width: 40%;
+    border-radius: 10px;
+    border-style: none;
+    padding: 11px 0;
+    font-size: 22px;
+}
+.form img{
+    width: 100px;
+}
+.fonticon{
+    font-size: 600%;
+}
+.option {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2% auto;
+}
+.option a{text-decoration: none;}
+
+
+.about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #178582;
+}
+/* lesson style */
+.Main_lesson{
+    display: block;
+}
+.Main_lesson h3:nth-child(2){
+    text-align: left;
+}
+.our_tutor{
+    display: block;
+    background-color: #178582;
+    margin: 0 5px;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+.our_tutor div { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rating div{
+    display: block;
+    align-items: center;
+    margin: auto;
+}
+.about_tutor{
+    padding-left: 50px;
+}
+.lesson h3{
+    text-align: left;
+}
+.picha{
+    width: 150px;
+    border-radius: 50%;
+    margin: auto;
+    
+}
+.card-container{
+    display: inline-flex;
+}
+
+/* package styling */
+.basic h3, .advance h3{
+    text-align: left;
+    font-size: 26px;
+}
+.basic1, .card-container, .tutor, .advanc{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: auto auto auto;
+    
+}
+.description, .learn{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 0 20px; 
+}
+/* home styling */
+.card{
+    background-color: #178582;
+    padding: 10px;
+    border-radius: 20px;
+}
+.about{
+    display: flex;
+    height:40em;
+} 
+.about img{
+    margin-left: 10px;
+}
